@@ -1,0 +1,30 @@
+{
+  "name": "winston-sls",
+  "description": "Winston transport for Aliyun SLS",
+  "version": "1.0.0",
+  "author": "innopals",
+  "license": "MIT",
+  "homepage": "https://github.com/innopals/winston-sls",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:innopals/winston-sls.git"
+  },
+  "keywords": [
+    "logging",
+    "winston",
+    "aliyun",
+    "sls"
+  ],
+  "main": "dist/index.js",
+  "scripts": {},
+  "engines": {
+    "node": ">= 8"
+  },
+  "devDependencies": {
+    "@types/logform": "^1.2.0",
+    "@types/node": "^10.9.4"
+  },
+  "dependencies": {
+    "winston-transport": "^4.2.0"
+  }
+}
